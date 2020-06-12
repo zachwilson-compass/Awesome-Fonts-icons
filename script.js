@@ -1,7 +1,7 @@
 var template_path = Qva.Remote + "?public=only&name=Extensions/font-awesome-icons/";
 
 //Path to css extension
-Qva.LoadCSS('https://raw.githubusercontent.com/zachwilson-compass/Awesome-Fonts-icons/master/font-awesome.min.css');
+Qva.LoadCSS('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css');
 Qv.AddExtension("font-awesome-icons", function(){
 
 	//variables for icon, size and color
